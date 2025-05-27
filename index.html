@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Jokes</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body class="flex flex-col min-h-screen justify-between">
+    <div class="flex flex-col grow justify-center">
+        <header id="header" class="mb-8">
+            <figure>
+                <img src="static/images/17794049-removebg-preview.png" alt="Chuck Norris">
+            </figure>
+            <h1 class="lobster-regular">Chuck Norris Jokes</h1>
+        </header>
+
+        <main id="main" class="flex flex-col grow justify-between py-10">
+            <form action="" method="get" class="flex flex-col gap-8">
+                <div>
+                    <label for="scelta">Choose jokes category:</label>
+                    <select id="scelta">
+                        <option value="">All</option>
+                        <option value="animal">Animal</option>
+                        <option value="career">Career</option>
+                        <option value="celebrity">Celebrity</option>
+                        <option value="dev">Dev</option>
+                        <option value="explicit">Explicit</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="food">Food</option>
+                        <option value="history">History</option>
+                        <option value="money">Money</option>
+                        <option value="movie">Movie</option>
+                        <option value="music">Music</option>
+                        <option value="political">Political</option>
+                        <option value="religion">Religion</option>
+                        <option value="science">Science</option>
+                        <option value="sport">Sport</option>
+                        <option value="travel">Travel</option>
+                    </select>
+                </div>
+                <div class="divider hidden lg:block"></div>
+                <div>
+                    <input type="button" name="btn" id="generate" value="Load Joke">
+                </div>
+            </form>
+
+            <label id="jokes" class="odor-mean-chey-regular mt-10"></label>
+        </main>
+    </div>
+
+    <script src="static/js/index.js"></script>
+</body>
+</html>

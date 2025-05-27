@@ -1,0 +1,11 @@
+@import "commons.css";
+@import "header.css";
+@import "main.css";
+
+
+#jokes {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
