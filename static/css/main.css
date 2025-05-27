@@ -1,80 +1,44 @@
 #main {
     background-color: #EB5B25;
-    padding: 40px 20px;
-    border-top: 4px solid black;
+    padding: 30px;
+    border-top: 3px solid #5C4033;
+    text-align: center;
 }
 
-#main form {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
+#main form > label {
+    display: block;
+    margin-bottom: 15px;
 }
 
-@media (min-width: 1024px) {
-    #main form {
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 960px;
-        margin: 0 auto;
-    }
-}
-
-#main label, #main select {
-    font-family: 'Odor Mean Chey', serif;
-}
-
-#main form > div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-#main form > div select {
+#main form > input {
+    text-align: center;
     background-color: #5C4033;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: none;
-}
-
-#main form > div label {
-    color: white;
-    font-size: 1.1rem;
-}
-
-#generate {
-    background-color: #5C4033;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 18px 30px;
     cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+    margin-top: 25px;
 }
 
-#generate:hover {
-    background-color: black;
+#main form > input:hover {
+    background-color: #000000;
+    color: white;
 }
 
 #jokes {
-    margin-top: 30px;
-    color: white;
-    font-size: 1.25rem;
+    margin: 40px auto;
     text-align: center;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
-/* Divider for large screens */
-@media (min-width: 1024px) {
-    .divider {
-        width: 1px;
-        height: 96px;
-        background-color: black;
-    }
+#category {
+    margin-top: 20px;
+}
+
+#scelta {
+    background-color: #5C4033;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px;
 }

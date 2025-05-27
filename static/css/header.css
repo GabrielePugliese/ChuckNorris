@@ -1,28 +1,13 @@
 #header {
-    background-color: #ffffff;
-    border: 1px solid black;
-    border-radius: 12px;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
-    padding: 16px 24px;
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 16px;
+    background-color: #fff;
+    border-bottom: 1px rgb(2, 127, 177) solid;
+    box-shadow: 0px 2px 10px;
+    padding: 20px 0;
+    text-align: center;
 }
-
 #header figure > img {
-    width: 64px;
-    height: auto;
-    padding: 0;
+    padding: 10px;
 }
-
 #header h1 {
-    font-size: 2rem;
-    color: #5C4033;
-    letter-spacing: 0.5px;
-    text-align: left;
+    letter-spacing: 0.5%;
 }
